@@ -1,0 +1,79 @@
+/* src/styles/Contato.css */
+
+.footer-contato {
+  background-color: #2e8b57; /* verde predominante */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.contato-form {
+  width: 48%;
+}
+
+.contato-form label {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.contato-form input,
+.contato-form textarea {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.contato-form button {
+  background-color: #f44336; /* vermelho suave */
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contato-form button:hover {
+  background-color: #e57373; /* vermelho mais suave no hover */
+}
+
+.informacoes {
+  width: 48%;
+  text-align: left;
+}
+
+.informacoes ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.informacoes li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #fff;
+  padding: 10px;
+  font-size: 14px;
+}

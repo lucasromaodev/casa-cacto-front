@@ -1,0 +1,20 @@
+/* src/styles/Acomodações.css */
+
+.acomodacoes-section {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+}
+
+.acomodacao-item {
+  margin: 20px 0;
+}
+
+.acomodacao-item h3 {
+  font-size: 20px;
+  color: #2e8b57;
+}
+
+.acomodacao-item p {
+  font-size: 16px;
+  color: #555;
+}
